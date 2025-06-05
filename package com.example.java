@@ -40,8 +40,7 @@ public class Pelicula {
     public void setTitulo(String titulo) {
        this.titulo = titulo;
        }
-     public String getDirector()
-      { 
+     public String getDirector() { 
         return director;   
       }
     public void setDirector(String director){   
@@ -63,7 +62,6 @@ public class Pelicula {
         this.genero = genero; 
     }
 
-    // equals(), hashCode(), toString() manuales
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
